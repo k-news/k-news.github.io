@@ -1,0 +1,238 @@
+
+.back{
+  width: 100%;
+  height: 100vh;
+  z-index: -3;
+  display: inline;
+  position: fixed;
+}
+.top-nav{
+  width: 100%;
+  height:11vh;
+  background-color:rgb(	16,	32,	48);
+  opacity:1;
+  z-index: -2;
+  position: absolute;
+}
+.top-nav-box{
+  line-height:10vh;
+  height:10vh;
+  width:50vw;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+.top-nav-box-left{
+  float:left;
+  display: inline-block;
+  height:11vh;
+  vertical-align: middle;
+
+}
+.logo{
+width:5vh;
+display:inline-block;
+vertical-align: middle;
+}
+.top-nav-box-right{
+  float:right;
+  height:11vh;
+  display: inline-block;
+vertical-align: middle;
+}
+.english{
+  width: 5vh;
+  display:inline-block;
+  vertical-align: middle;
+}
+.dasaxeleba{
+font-size: 14pt;
+display: inline-block;
+color:rgb(230,230,230);
+padding-left:6pt;
+padding-right:6pt;
+vertical-align: middle;
+}
+
+
+
+
+
+
+.paper{
+  width: 46vw;
+  margin-top: 8vh;
+  padding:2vw;
+  padding-bottom:4vh;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 110vh;
+  background-color: white;
+}
+
+
+
+
+
+.overlay {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay a {
+
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover{
+  background-color: rgb(220,220,220);
+}
+.whitemen{
+background-color: rgb(230,230,230);
+padding-left:12pt;
+padding-right: 12pt;
+min-height:90vh;
+margin-top:5vh;
+
+}
+.koma{
+  width:100%;
+border-bottom: 3pt solid;
+border-bottom-color:rgb(255,120,0);
+padding-bottom:10pt;
+padding-top: 10pt;
+}
+.hint{
+  display:inline-block;
+}
+.merry{
+  width:100%;
+  height:100vh;
+display:inline-block;}
+.hint a {
+padding-top: 5pt;
+padding-bottom: 5pt;
+font-size: 18pt;
+color: rgb(0,0,0);
+}
+.hint1::first-letter {
+font-size:26pt;
+color:rgb(255,120,0);
+}
+.hint2::first-letter {
+font-size:26pt;
+color:rgb(125,0,125);
+}
+.hint3::first-letter {
+font-size:26pt;
+color:rgb(0,145,255);
+}
+.hint4::first-letter {
+font-size:26pt;
+color:rgb(237,50,55);
+}
+.line{
+border-top: 3pt solid;
+  border-top-color:rgb(255,120,0);
+  margin-top:2pt;
+}
+.he{
+  font-size:24pt;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: 1vh
+}
+.dep{
+  text-indent: 2vw;}
+.par{
+  font-size:12pt;
+  width:85%;
+  margin: auto;
+  line-height: 1.2;
+}
+.par2 p{ width:100%;
+  font-size: 14pt;
+  display:block;
+}
+
+.group{width:74%;
+   margin-left:13%;
+   margin-right:13%;
+    display:inline-block;
+ margin-top:20pt;}
+
+
+ .double{
+  display:inline-block;
+ margin-top:20pt;
+ margin-left:7.5%;
+ margin-right:4%;
+ width:38%;
+ }
+
+  .double2{
+   display:inline-block;
+  margin-top:20pt;
+  margin-right:7.5%;
+  margin-left:4%;
+  width:38%;
+  }
+
+
+.appear{
+  display:none;
+}
+
+.closebtn {
+  float:right;
+  display: block;
+    color: black;
+    z-index:6;
+    font-size:8vh;
+    font-weight: bold;padding:5pt;
+}
+.bol{ font-weight: bold;}
+
+@media only screen and (max-width: 1100px) {
+.top-nav-box{width:60vw;}
+.paper{width:56vw;}
+
+
+
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .del{ display:none; }
+
+    .dal{ display:none; }
+    .appear{display:inline-block;}
+    }
+
+
+@media only screen and (max-width: 800px) {
+  .paper{ width:90vw;}
+.hint a {font-size:14pt; }
+.hint a::first-letter{font-size:18pt;}
+.top-nav-box{width:90%;}
+.overlay-content {  width: 80vw;  }
+.closebtn{font-size: 5vh; }
+.dep{text-indent: 8vw;}
+.group{width:86%; margin-left:7%; margin-right:7%;}
+.double{width:86%; margin-left:7%; margin-right:7%;}
+.double2{width:86%; margin-left:7%; margin-right:7%;}
+}
